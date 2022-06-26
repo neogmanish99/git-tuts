@@ -42,3 +42,9 @@ IN POWERSHELL
 //git remote add origin https://github.com/neogmanish99/git-tuts.git -- it adds the repo url to your git folder
 
 //git remote -v -- it will give any url that are attached to the git folder
+
+//gir push origin master/main
+
+//git branch <name> -- to create a branch
+
+//git checkout <name> -- to enter into that branch
