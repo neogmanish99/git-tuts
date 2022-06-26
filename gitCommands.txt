@@ -1,0 +1,44 @@
+//ls -- gives the list of all the folders
+
+//mkdir newfolder -- makes a new folder
+
+//cd newfolder -- goes inside the project
+
+//git init -- gives an hidden files that contains all the history that took place on folder files
+
+//ls -a == gives the list of hidden files
+
+IN POWERSHELL
+
+//$null > filename.js -- to create a new File
+
+// git status -- it will give the info whether till any changes has taken placed or not in the files
+							// from the .git history and if  not we have to track all the untracked files
+
+//git add . -- it takes all the files in the files to the staging area which are untracked and staged
+  
+// or we can specify unique file name ((git add names.txt))
+
+(use "git rm --cached <file>..." to unstage)
+
+//finally to add all staged files to the history 
+// git commit -m "all files are added"
+
+
+//git log -- viewing the overall history
+
+// Remove-Item names.txt --deletes a files
+
+// git reset 09fd082de943baa2eec0321901bf -- it undoes any commit that you had made earlier
+
+//git restore names.txt -- restore a deleted file
+
+//git stash  == after staging if you dont want tp commit it and want to save it for later
+
+//git stash pop == getting all the back stashed file back in the staging area
+
+//git remote -v -- it will give any url that are attached to the git folder
+
+//git remote add origin https://github.com/neogmanish99/git-tuts.git -- it adds the repo url to your git folder
+
+//git remote -v -- it will give any url that are attached to the git folder
